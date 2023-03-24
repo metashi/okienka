@@ -3,12 +3,12 @@ public class Prism extends SpatialFigure implements Printable {
     Prism(Figure base, double height) {
         this.base = base;
         this.height = height;
-        //this.n = n;
+        
     }
 
     Figure base;
     double height;
-    //double n;
+   
 
     @Override
     public double calculateSurface() {
